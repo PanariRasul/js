@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+    border:none;
+    border-radius: 3px;
+    padding: 4px;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 6px;
+    transition: 2s;
+
+}
+
+li:hover {
+    height:40px ;
+    width: 180px;
+    background-color: black;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+
+.navbar {
+    height: 70px;
+    background-color: gray;
+    align-items: center;
+}
+
